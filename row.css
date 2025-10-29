@@ -1,0 +1,98 @@
+.hide {
+  display: none;
+}
+
+button {
+  font-family: cursive;
+  color: white;
+  width: 40%;
+  height: 40px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+button:active {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+}
+
+.Green {
+  background-color: green;
+  box-shadow: 2px 2px rgb(9, 66, 1);
+}
+
+.Red {
+  background-color: red;
+  box-shadow: 2px 2px rgb(66, 1, 1);
+}
+
+.Blue {
+  background-color: blue;
+  box-shadow: 2px 2px rgb(1, 14, 66);
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.div-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  width: 50px;
+  height: 50px;
+  font-size: larger;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  border-radius: 100%;
+  background-image: radial-gradient(red, yellow);
+  transition: all ease-in-out 0.5s;
+
+}
+
+.Win {
+  background-image: radial-gradient(rgb(52, 148, 4), rgb(0, 255, 81));
+
+}
+
+#Word {
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(242, 220, 51);
+  color: orangered;
+  border: 3px solid red;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+p {
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: 700;
+  color: crimson;
+}
+
+input[type="text"] {
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+  background-color: rgb(242, 242, 173);
+}
+
+input:first-of-type {
+  margin-bottom: 30px;
+}
